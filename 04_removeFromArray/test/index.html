@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+
+
+
+
+
+        <script>
+            function argumentVar (p1,p2, ...p3){
+
+                console.log(arguments.length);
+                // checks argumentVar() arguments below and returns 4 bc there is one array and 3 single numbers; changed to 7 bc i added some numbers
+
+                console.log(arguments[3]);
+                // checks argumentVar() and returns 6 bc thats the number at the third index
+
+                console.log(arguments[7])
+
+            }
+
+            argumentVar([1,2,3,4], 2,5,6,14,19,25);
+        </script>
+
+
+    </body>
+</html>
